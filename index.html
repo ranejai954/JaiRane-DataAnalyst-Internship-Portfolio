@@ -491,7 +491,7 @@
   </div>
 </section>
 
-<!-- Internship Tasks Section with upgraded content -->
+<!-- Internship Tasks Section with WORKING GitHub Links -->
 <section id="tasks">
   <h2 class="section-title reveal">⚡ Data assignments</h2>
   <div class="grid">
@@ -499,37 +499,35 @@
       <div class="task-icon"><i class="fas fa-broom"></i></div>
       <h3>Data Cleansing · Task 1</h3>
       <p>Standardized 8K+ rows, imputed missing values via KNN, outlier detection with IQR — reduced noise by 34%.</p>
-      <a href="#" class="repo-link"><i class="fab fa-github"></i> Case study <i class="fas fa-arrow-right"></i></a>
+      <a href="https://github.com/ranejai954/apexplanet-dataanalytics-internship/tree/main/task-1" target="_blank" class="repo-link"><i class="fab fa-github"></i> Case study <i class="fas fa-arrow-right"></i></a>
     </div>
+    
     <div class="task-card reveal">
       <div class="task-icon"><i class="fas fa-chart-scatter"></i></div>
       <h3>Exploratory EDA · Task 2</h3>
       <p>Deep dive correlation matrix & distribution plots, identified seasonal patterns, delivered interactive report using Plotly.</p>
-      <a href="#" class="repo-link"><i class="fab fa-github"></i> Insights notebook <i class="fas fa-arrow-right"></i></a>
+      <a href="https://github.com/ranejai954/apexplanet-dataanalytics-internship/tree/main/task-2" target="_blank" class="repo-link"><i class="fab fa-github"></i> Insights notebook <i class="fas fa-arrow-right"></i></a>
     </div>
+    
     <div class="task-card reveal">
       <div class="task-icon"><i class="fas fa-chart-pie"></i></div>
       <h3>BI Dashboard · Task 3</h3>
       <p>Power BI executive dashboard with KPI cards, dynamic filters, and forecast trends for revenue optimization.</p>
-      <a href="#" class="repo-link"><i class="fab fa-github"></i> Live demo <i class="fas fa-arrow-right"></i></a>
+      <a href="https://github.com/ranejai954/apexplanet-dataanalytics-internship/tree/main/task-3" target="_blank" class="repo-link"><i class="fab fa-github"></i> Live demo <i class="fas fa-arrow-right"></i></a>
     </div>
+    
     <div class="task-card reveal">
       <div class="task-icon"><i class="fas fa-flask"></i></div>
       <h3>Hypothesis Testing · Task 4</h3>
       <p>A/B testing framework, t-test & chi-square validation, delivered p-values and business recommendations.</p>
-      <a href="#" class="repo-link"><i class="fab fa-github"></i> Statistical report <i class="fas fa-arrow-right"></i></a>
+      <a href="https://github.com/ranejai954/apexplanet-dataanalytics-internship/tree/main/task-4" target="_blank" class="repo-link"><i class="fab fa-github"></i> Statistical report <i class="fas fa-arrow-right"></i></a>
     </div>
+    
     <div class="task-card reveal">
       <div class="task-icon"><i class="fas fa-code-branch"></i></div>
       <h3>Portfolio + CI/CD · Task 5</h3>
       <p>Deployed this interactive portfolio with GitHub Pages, responsive glassmorphic design, and dynamic animations.</p>
-      <a href="#" class="repo-link"><i class="fab fa-github"></i> Source code <i class="fas fa-arrow-right"></i></a>
-    </div>
-    <div class="task-card reveal">
-      <div class="task-icon"><i class="fas fa-database"></i></div>
-      <h3>SQL Analytics · Bonus</h3>
-      <p>Complex joins, window functions, and query optimization for e-commerce dataset — improved runtime by 40%.</p>
-      <a href="#" class="repo-link"><i class="fab fa-github"></i> Queries repo <i class="fas fa-arrow-right"></i></a>
+      <a href="https://github.com/ranejai954/JaiRane-DataAnalyst-Internship-Portfolio/tree/main" target="_blank" class="repo-link"><i class="fab fa-github"></i> Source code <i class="fas fa-arrow-right"></i></a>
     </div>
   </div>
 </section>
@@ -594,7 +592,7 @@
 </footer>
 
 <script>
-  // REVEAL animation with intersection observer (high performance)
+  // REVEAL animation with intersection observer
   const revealElements = document.querySelectorAll('.reveal');
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
@@ -606,7 +604,7 @@
   
   revealElements.forEach(el => observer.observe(el));
 
-  // Mouse glow effect — modern UX
+  // Mouse glow effect
   const glow = document.getElementById('mouseGlow');
   document.addEventListener('mousemove', (e) => {
     if (glow) {
@@ -615,11 +613,15 @@
     }
   });
 
-  // smooth scroll for nav links and buttons
+  // SMOOTH SCROLL - BUT ONLY FOR INTERNAL ANCHOR LINKS (starting with #)
+  // This will NOT affect GitHub external links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function(e) {
       const targetId = this.getAttribute('href');
+      // Skip if it's just "#" or empty
       if (targetId === "#" || targetId === "") return;
+      
+      // Check if it's actually an internal element (not an external link disguised as #)
       const targetElement = document.querySelector(targetId);
       if (targetElement) {
         e.preventDefault();
@@ -631,7 +633,7 @@
     });
   });
 
-  // Additional dynamic stat hover effect (optional)
+  // Dynamic stat hover effect
   const statsDivs = document.querySelectorAll('.stat');
   statsDivs.forEach(stat => {
     stat.addEventListener('mouseenter', () => {
@@ -645,15 +647,10 @@
     });
   });
 
-  // Task card repo link real url placeholder (dummy prevention) — but user can later replace
-  const links = document.querySelectorAll('.repo-link');
-  links.forEach(link => {
-    link.addEventListener('click', (e) => {
-      if (link.getAttribute('href') === '#') {
-        e.preventDefault();
-        alert('🔗 GitHub repository ready — connect with Jai for full access to internship tasks!');
-      }
-    });
+  // TEST: Log all repo links to console to verify they exist
+  console.log("GitHub repo links found:");
+  document.querySelectorAll('.repo-link').forEach((link, index) => {
+    console.log(`${index + 1}: ${link.href}`);
   });
 </script>
 </body>
