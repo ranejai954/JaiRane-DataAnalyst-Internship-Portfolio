@@ -119,6 +119,6 @@ This repository is the **master portfolio** for my Data Analytics Internship at 
 
 ---
 
-*Built during the ApexPlanet Data Analytics Internship*
+*Built during the ApexPlanet Software Pvt. Ltd. Data Analytics Internship*
 
 **Jai Rane · 2026**
