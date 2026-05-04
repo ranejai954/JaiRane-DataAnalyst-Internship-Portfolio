@@ -1,90 +1,124 @@
-🚀 Jai Rane — Data Analytics Internship Portfolio
+# Jai Rane — Data Analyst Internship Portfolio
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-jai--rane-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jai-rane-62ba58352)
+[![GitHub](https://img.shields.io/badge/GitHub-ranejai954-181717?style=for-the-badge&logo=github)](https://github.com/ranejai954)
 
+> *"Turning raw data into insights that drive decisions."*
 
+---
 
-"Turning raw data into meaningful insights."
+## 👋 About This Portfolio
 
-👋 About This Portfolio
+This repository is the **master portfolio** for my Data Analytics Internship at **ApexPlanet Software Pvt. Ltd.** — a complete, end-to-end showcase of 5 tasks completed over a structured program, demonstrating real-world data analytics skills using Python, Statistics, Power BI, and data visualization tools.
 
-This repository is the master portfolio for my Data Analytics Internship at ApexPlanet Software Pvt. Ltd. — a complete, end-to-end showcase of all tasks completed during the program, demonstrating practical data analytics skills using Python, visualization, and statistical techniques.
+| | |
+|---|---|
+| **Analyst** | Jai Rane |
+| **Company** | ApexPlanet Software Pvt. Ltd. |
+| **Domain** | Data Analytics |
+| **Projects** | 5 Internship Tasks |
 
-	
-Analyst	Jai Rane
-Company	ApexPlanet Software Pvt. Ltd.
+---
 
-Focus	Data Analytics & Insights
+## 🗂️ All Tasks — Quick Navigation
 
-🗂️ All Tasks — Quick Navigation
-Task	Title	Timeline	Key Skills	Repo
-✅ Task 1	Data Cleaning & Preprocessing	Days 1–4	Pandas, Data Cleaning	View Repo →
+| Task | Title | Key Skills | Repo |
+|------|-------|------------|------|
+| ✅ Task 1 | Data Cleaning & Preprocessing | Pandas, Data Cleaning, Python | [View Repo →](https://github.com/ranejai954/apexplanet-dataanalytics-internship/tree/main/task-1) |
+| ✅ Task 2 | Exploratory Data Analysis | Matplotlib, Seaborn, EDA | [View Repo →](https://github.com/ranejai954/apexplanet-dataanalytics-internship/tree/main/task-2) |
+| ✅ Task 3 | Dashboard & KPI Analysis | Power BI, Visualization | [View Repo →](https://github.com/ranejai954/apexplanet-dataanalytics-internship/tree/main/task-3) |
+| ✅ Task 4 | Data Storytelling & Hypothesis Testing | Statistics, Analysis | [View Repo →](https://github.com/ranejai954/apexplanet-dataanalytics-internship/tree/main/task-4) |
+| ✅ Task 5 | Portfolio & Capstone | GitHub Pages, HTML/CSS | This Repo |
 
-✅ Task 2	Exploratory Data Analysis	Days 5–8	Matplotlib, Seaborn	View Repo →
+---
 
-✅ Task 3	Dashboard & KPI Analysis	Days 9–12	Power BI, Visualization	View Repo →
+## 📌 Task 1 — Data Cleaning & Preprocessing
 
-✅ Task 4	Data Storytelling & Hypothesis Testing	Days 13–16	Statistics, Insights	View Repo →
+- Cleaned raw dataset and handled missing values  
+- Converted data types and standardized formats  
+- Prepared dataset for analysis  
 
-✅ Task 5	Portfolio & Final Integration	Days 17–24	GitHub Pages, Portfolio	This Repo
+**Skills:** `Pandas` `NumPy` `Data Cleaning` `Python`
 
-📌 Task 1 — Data Cleaning & Preprocessing
-Cleaned raw dataset and handled missing values
-Converted data types and structured dataset
-Prepared dataset for analysis
+---
 
-Skills: Pandas NumPy Data Cleaning Python
+## 📌 Task 2 — Exploratory Data Analysis
 
-📌 Task 2 — Exploratory Data Analysis
-Explored trends, patterns, and relationships
-Visualized insights using charts and graphs
-Derived meaningful patterns from data
+- Explored patterns, trends, and correlations  
+- Analyzed key metrics across dataset features  
+- Visualized insights using Python libraries  
 
-Skills: Matplotlib Seaborn EDA Python
+**Skills:** `Matplotlib` `Seaborn` `EDA` `Data Analysis`
 
-📌 Task 3 — Dashboard & KPI Analysis
-Defined key performance indicators (KPIs)
-Built interactive dashboard using Power BI
-Presented insights in a visual format
+---
 
-Skills: Power BI Dashboards Data Visualization
+## 📌 Task 3 — Dashboard & KPI Analysis
 
-📌 Task 4 — Data Storytelling & Hypothesis Testing
-Transformed analysis into structured insights
-Applied statistical methods for validation
-Interpreted results to support decision-making
+- Defined key performance indicators (KPIs)  
+- Built an interactive Power BI dashboard  
+- Presented insights through visual storytelling  
 
-Skills: Statistics Hypothesis Testing Data Storytelling
+**Skills:** `Power BI` `Dashboards` `Data Visualization`
 
-📌 Task 5 — Capstone & Portfolio Finalization
-Integrated all tasks into one master portfolio
-Built and deployed GitHub Pages website
-Created a professional showcase of work
+---
 
-🛠️ Technical Skills Demonstrated
-Category	Skills
-Languages	Python
-Data Analysis	Pandas, NumPy
-Visualization	Matplotlib, Seaborn, Power BI
-Statistics	Hypothesis Testing, Data Analysis
-Tools	Git, GitHub, GitHub Pages
+## 📌 Task 4 — Data Storytelling & Hypothesis Testing
 
-📈 Key Learnings
-Clean data is the foundation of accurate analysis
-Visualization simplifies complex insights
-Data storytelling improves understanding and impact
-Real-world data requires structured thinking
-Insights should always lead to actionable decisions
+### 📊 Key Insights
 
-🌐 Live Portfolio
+- Identified meaningful patterns and relationships in data  
+- Converted analysis into structured insights  
+- Supported findings using statistical reasoning  
 
-🔗 https://ranejai954.github.io/apexplanet-dataanalytics-internship/
+### 🔬 Statistical Analysis
 
-📬 Connect With Me
-Platform	Link
-💼 LinkedIn	https://www.linkedin.com/in/jai-rane-62ba58352
+- Applied hypothesis testing concepts  
+- Validated results using data-driven approach  
+- Interpreted outputs for decision-making  
 
-🐙 GitHub	https://github.com/ranejai954
+**Skills:** `Statistics` `Hypothesis Testing` `Data Interpretation`
 
-Built during the ApexPlanet Data Analytics Internship
+---
 
-Jai Rane · 2026
+## 📌 Task 5 — Capstone & Portfolio Finalization
+
+- Built this master portfolio repository  
+- Designed and deployed portfolio website using GitHub Pages  
+- Documented all internship work in a structured format  
+
+---
+
+## 🛠️ Technical Skills Demonstrated
+
+| Category | Skills |
+|----------|--------|
+| **Languages** | Python |
+| **Data Analysis** | Pandas, NumPy |
+| **Visualization** | Matplotlib, Seaborn, Power BI |
+| **Statistics** | Hypothesis Testing, Data Interpretation |
+| **Tools** | Git, GitHub, GitHub Pages |
+
+---
+
+## 📈 Key Learnings
+
+1. Data cleaning is the foundation of analysis  
+2. Visualization makes insights easier to understand  
+3. Data storytelling is crucial for impact  
+4. Analytical thinking improves decision-making  
+5. Real-world data requires structured problem solving  
+
+---
+
+## 📬 Connect With Me
+
+| Platform | Link |
+|----------|------|
+| 💼 LinkedIn | https://www.linkedin.com/in/jai-rane-62ba58352 |
+| 🐙 GitHub | https://github.com/ranejai954 |
+
+---
+
+*Built during the ApexPlanet Data Analytics Internship*
+
+**Jai Rane · 2026**
